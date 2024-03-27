@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "HousePlantGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Test",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Test",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Test",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Shipping",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Shipping",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"Win64",
+				"Shipping",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Test",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Test",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Test",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Shipping",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Shipping",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGame IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGame IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGame",
+				"IOS",
+				"Shipping",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"HousePlantGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		},
+		{
+			"label": "HousePlantGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"HousePlantGameEditor",
+				"Win64",
+				"Development",
+				"E:\\Game Development\\HousePlantGame\\HousePlantGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\UE_5.2"
+			}
+		}
+	]
+}
